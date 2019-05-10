@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".OneOrderOnOneRoomActivity"
+        android:layout_margin="20dp">
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Room"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textSize="28dp"
+            android:id="@+id/roomTv"
+    />
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Room number"
+            android:textColor="#000"
+            android:textSize="24dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/roomnumberTv"
+            android:layout_below="@id/roomTv"
+    />
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price for night"
+            android:layout_marginTop="20dp"
+            android:textColor="#000"
+            android:textSize="24dp"
+            android:id="@+id/roompriceTv"
+            android:layout_below="@id/roomnumberTv"
+    />
+
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Customer"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textSize="28dp"
+            android:id="@+id/customerTv"
+            android:layout_below="@id/roompriceTv"
+            android:layout_marginTop="40dp"
+    />
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Customer name"
+            android:textColor="#000"
+            android:textSize="24dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/customer_name_TV"
+            android:layout_below="@id/customerTv"
+    />
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Phone num"
+            android:layout_marginTop="20dp"
+            android:textColor="#000"
+            android:textSize="24dp"
+            android:id="@+id/phonenumTv"
+            android:layout_below="@id/customer_name_TV"
+    />
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Duration "
+            android:layout_marginTop="20dp"
+            android:textColor="#000"
+            android:textSize="24dp"
+            android:id="@+id/durationTv"
+            android:layout_below="@id/phonenumTv"
+    />
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Notes"
+            android:layout_marginTop="20dp"
+            android:textColor="#000"
+            android:textSize="24dp"
+            android:id="@+id/notesTv"
+            android:layout_below="@id/durationTv"
+    />
+
+    <LinearLayout
+            android:id="@+id/linearlayout"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/notesTv"
+            android:layout_marginTop="20dp"
+    >
+
+        <Button android:layout_width="124dp"
+                android:layout_height="58dp"
+                android:text="Accept"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:id="@+id/Acceptbutton"
+        />
+        <Button android:layout_width="124dp"
+                android:layout_height="58dp"
+                android:text="Rejected"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:id="@+id/Rejectedbutton"
+                android:visibility="gone"
+        />
+
+
+    </LinearLayout>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:text="Sta : Rejected"
+            android:layout_marginTop="20dp"
+            android:id="@+id/AcceptTextTV"
+            android:layout_below="@id/linearlayout"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:orientation="vertical"
+        >
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:text="Room Bookings"
+            android:textSize="32dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:id="@+id/roomBookingsTV"
+            android:background="@drawable/background"
+            android:textColor="#ffffff"
+
+    />
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:text="Services Requests"
+            android:textSize="32dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:id="@+id/serviceRequestsTV"
+            android:background="@drawable/background2"
+            android:textColor="#ffffff"
+            android:layout_marginTop="4dp"
+
+    />
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:text="Hotel Rooms"
+            android:textSize="32dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:id="@+id/HotelRoomsTV"
+            android:background="@drawable/background4"
+            android:textColor="#ffffff"
+            android:layout_marginTop="4dp"
+
+    />
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:text="Hotel Services"
+            android:textSize="32dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:id="@+id/HotelServicesTV"
+            android:background="@drawable/background3"
+            android:textColor="#ffffff"
+            android:layout_marginTop="4dp"
+
+    />
+</LinearLayout>

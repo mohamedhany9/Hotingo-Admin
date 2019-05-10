@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        tools:context=".HotelsRoomActivity">
+
+    <LinearLayout android:layout_width="300dp"
+                  android:orientation="vertical"
+                  android:layout_height="match_parent">
+
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:textSize="14dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Select or Capture Image"/>
+
+        <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/swit"
+                android:id="@+id/iv"/>
+
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="room Number"
+                android:gravity="center"
+                android:id="@+id/roomnumberET"
+                android:layout_marginTop="8dp"
+        />
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="room Price"
+                android:gravity="center"
+                android:id="@+id/roompriceET"
+                android:layout_marginTop="8dp"
+        />
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="room Description"
+                android:gravity="center"
+                android:id="@+id/roomdescET"
+                android:layout_marginTop="8dp"
+        />
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnPost"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="40dp"
+                android:textSize="14dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Add Room"
+                android:layout_marginBottom="20dp"
+        />
+    </LinearLayout>
+
+</ScrollView>
